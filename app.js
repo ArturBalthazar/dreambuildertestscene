@@ -226,12 +226,12 @@
     }
   }
 
-  // Convert storage path to relative asset path (simplified version)
+  // Convert storage path to relative asset path (matches exportWebBasic.ts)
   function toRelativeAssetPath(storagePath) {
-    // This should match the logic in exportWebBasic.ts
+    // Extract just the filename from the path (same logic as export)
     const parts = storagePath.split('/');
-    const lastPart = parts[parts.length - 1];
-    return lastPart || storagePath.replace(/[/\\]/g, '_');
+    const filename = parts[parts.length - 1];
+    return filename || storagePath.replace(/[/\\]/g, '_');
   }
 
 })();

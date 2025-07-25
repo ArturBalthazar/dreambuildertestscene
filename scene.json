@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "sceneVersion": 28,
+  "sceneVersion": 17,
   "nodes": [
     {
       "id": "camera1",
@@ -66,15 +66,15 @@
       }
     },
     {
-      "id": "asset_1753404027259_std028qe7",
+      "id": "asset_1753403860486_d4g6xkmin",
       "kind": "model",
-      "src": "c057c2eb-3cc7-4a45-9a3f-ccc5f8c71c82/projects/7a74a078-e36c-41e5-9024-d3e9056b3b0b/SamsungBeach_Collider_v5.glb",
+      "src": "c057c2eb-3cc7-4a45-9a3f-ccc5f8c71c82/projects/6c9b093c-1cfd-4ee6-abaa-437a6f030cab/SamsungBeach_Collider_v5.glb",
       "name": "SamsungBeach_Collider_v5.glb",
       "transform": {
         "position": [
-          -3.5195729842474224,
+          29.839108622156896,
           0,
-          -3.3635006790625486
+          26.824534332227444
         ],
         "rotation": [
           0,
@@ -89,15 +89,38 @@
       }
     },
     {
-      "id": "asset_1753404519335_4rload7lp",
+      "id": "asset_1753403873360_afhxbaljz",
       "kind": "model",
-      "src": "c057c2eb-3cc7-4a45-9a3f-ccc5f8c71c82/projects/7a74a078-e36c-41e5-9024-d3e9056b3b0b/warehouse.gltf",
-      "name": "warehouse.gltf",
+      "src": "c057c2eb-3cc7-4a45-9a3f-ccc5f8c71c82/projects/6c9b093c-1cfd-4ee6-abaa-437a6f030cab/SamsungBeach_AnimatedMeshes_v10.glb",
+      "name": "SamsungBeach_AnimatedMeshes_v10.glb",
       "transform": {
         "position": [
-          26.6034618618524,
+          10.049779492747085,
           0,
-          -0.21718698249445367
+          28.98964681094482
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scaling": [
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "asset_1753403909979_kuc4ah27o",
+      "kind": "model",
+      "src": "c057c2eb-3cc7-4a45-9a3f-ccc5f8c71c82/projects/6c9b093c-1cfd-4ee6-abaa-437a6f030cab/SamsungBeach_Water_v5.glb",
+      "name": "SamsungBeach_Water_v5.glb",
+      "transform": {
+        "position": [
+          10.8590511410242,
+          0,
+          -12.218383195290848
         ],
         "rotation": [
           0,
