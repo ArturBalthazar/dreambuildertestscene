@@ -1,0 +1,115 @@
+{
+  "version": 1,
+  "sceneVersion": 28,
+  "nodes": [
+    {
+      "id": "camera1",
+      "kind": "camera",
+      "name": "Main Camera",
+      "transform": {
+        "position": [
+          8.65,
+          5,
+          -8.65
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "light1",
+      "kind": "light",
+      "name": "Main Light",
+      "transform": {
+        "position": [
+          0,
+          10,
+          0
+        ]
+      }
+    },
+    {
+      "id": "defaultCube",
+      "kind": "mesh",
+      "name": "Default Cube",
+      "transform": {
+        "position": [
+          0,
+          1,
+          0
+        ],
+        "scaling": [
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "ground",
+      "kind": "mesh",
+      "name": "Ground",
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "scaling": [
+          3,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "id": "asset_1753404027259_std028qe7",
+      "kind": "model",
+      "src": "c057c2eb-3cc7-4a45-9a3f-ccc5f8c71c82/projects/7a74a078-e36c-41e5-9024-d3e9056b3b0b/SamsungBeach_Collider_v5.glb",
+      "name": "SamsungBeach_Collider_v5.glb",
+      "transform": {
+        "position": [
+          -3.5195729842474224,
+          0,
+          -3.3635006790625486
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scaling": [
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "asset_1753404519335_4rload7lp",
+      "kind": "model",
+      "src": "c057c2eb-3cc7-4a45-9a3f-ccc5f8c71c82/projects/7a74a078-e36c-41e5-9024-d3e9056b3b0b/warehouse.gltf",
+      "name": "warehouse.gltf",
+      "transform": {
+        "position": [
+          26.6034618618524,
+          0,
+          -0.21718698249445367
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scaling": [
+          1,
+          1,
+          1
+        ]
+      }
+    }
+  ]
+}
